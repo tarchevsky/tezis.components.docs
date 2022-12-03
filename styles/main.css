@@ -536,8 +536,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: clamp(0.8rem, 1.2vw + 0.2rem, 1rem);
   line-height: 24px;
-  font-weight: 500;
-  letter-spacing: normal;
+  font-weight: 300;
+  letter-spacing: 2px;
   color: #333;
   background-color: #fff;
   scroll-behavior: smooth;
@@ -610,7 +610,7 @@ li:before {
 a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.37);
   transition: color 0.3s ease-out;
 }
 
@@ -702,7 +702,7 @@ aside {
   font-family: serif;
   line-height: normal;
   padding-block-end: 20px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.37);
 }
 
 .not-available {
@@ -764,7 +764,8 @@ aside {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  border-top: 1px solid #333;
+  border-top: 1px solid rgba(51, 51, 51, 0.37);
+  font-size: 0.7rem;
 }
 
 .footer .container {
@@ -871,7 +872,7 @@ select {
   display: block;
   width: 100%;
   border: 1px solid transparent;
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.37);
   padding: 20px;
   transition: border 0.3s ease-out;
   margin-block: 20px;
@@ -919,7 +920,7 @@ input[type=checkbox],
 input[type=radio] {
   display: block;
   align-self: flex-start;
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.37);
   appearance: none;
   transition: background 0.3s ease-out;
 }
@@ -951,7 +952,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 input[type=range]::-webkit-slider-thumb:focus {
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.37);
 }
 
 input[type=range]::-webkit-slider-runnable-track {
@@ -959,7 +960,7 @@ input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 8px;
   margin: 0;
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.37);
   padding: 0;
   border-radius: 5px;
 }
@@ -1028,7 +1029,7 @@ input[type=range]:focus {
   /* x*5 */
   height: 24px;
   /* x*3 */
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.37);
   transition: all 0.3s;
   border-radius: 16px;
   /* x*2 */
@@ -1045,7 +1046,7 @@ input[type=range]:focus {
   /* x*3 */
   height: 24px;
   /* x*3 */
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.37);
   transition: all 0.3s;
   border-radius: 16px;
   /* x*2 */
@@ -1082,7 +1083,7 @@ input[type=range]:focus {
 .table__header,
 .table__data {
   padding: 10px;
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.37);
   text-align: start;
 }
 
