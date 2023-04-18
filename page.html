@@ -25,7 +25,7 @@
     <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
     <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
-    <link rel="stylesheet" href="styles/main.min.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <div class="container">
@@ -45,15 +45,22 @@
           </div>
         </div>
       </header>
-      <div class="content">
-        <main class="main">
-          <h1>Задайте контейнер .container с фиксированной шириной сетки или .layout с постоянным отступом от краёв, и вы положите начало лёгкому сайту с быстрой разработкой от 2 часов.</h1>
-          <div class="main__row row"></div>
-        </main>
+      <div class="content-sidebar">
+        <aside class="sidebar">
+          <div class="sidebar__inner">
+            <h1>Заголовок сайдбара</h1>
+          </div>
+        </aside>
+        <div class="content">
+          <main class="main">
+            <h1>Задайте контейнер .container с фиксированной шириной сетки или .layout с постоянным отступом от краёв, и вы положите начало лёгкому сайту с быстрой разработкой от 2 часов.</h1>
+            <div class="main__row row"></div>
+          </main>
+        </div>
       </div>
       <footer class="footer"><a class="logo">
           <h1>tezis<sup style="font-weight: 200;">components</sup></h1></a></footer>
-      <script src="js/main.min.js"></script>
+      <script src="js/main.js"></script>
     </div>
   </body>
 </html>
